@@ -1,0 +1,11 @@
+# Installer les paquets
+npm install
+
+# Lancer le serveur de développement
+npm start
+
+Votre application devrait maintenant être accessible sur `http://localhost:3000` (ou sur l'IP de votre VM si vous y accédez à distance).
+
+Pour générer une version optimisée pour la production (dans le dossier `dist/`), lancez :
+```bash
+npm run build
